@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lya</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+</head>
+
+<body>
+    <main class="bg-slate-50 p-5 flex flex-col items-center justify-between min-h-screen">
+      <nav class="flex w-full justify-between items-center">
+        <a href="" class="text-2xl font-semibold text-slate-700">
+          <h1>lya</h1>
+        </a>
+          <a href="" class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M256 64C141.1 64 48 139.2 48 232c0 64.9 45.6 121.2 112.3 149.2-5.2 25.8-21 47-33.5 60.5-2.3 2.5.2 6.5 3.6 6.3 11.5-.8 32.9-4.4 51-12.7 21.5-9.9 40.3-30.1 46.3-36.9 9.3 1 18.8 1.6 28.5 1.6 114.9 0 208-75.2 208-168C464 139.2 370.9 64 256 64z" fill="currentColor"/></svg>
+          </a>
+      </nav>
+      <section class="flex flex-col items-center justify-center">
+        <h1 class="text-6xl font-semibold mb-10">lya</h1>
+        <p class="text-xl"><span id="element"></span></p>
+      </section> <!--  Message d'accueil  -->
+      <section>
+        <form action="" method="POST" class="w-full flex items-center justify-center gap-4">
+          <input type="text" name="" id="" class="border rounded-xl p-2 h-8" placeholder="Pose ta question">
+          <button type="submit" class="bg-neutral-900 rounded-full p-2">
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 512 512"><path fill="#F9F9F9" d="M258.9 48C141.92 46.42 46.42 141.92 48 258.9c1.56 112.19 92.91 203.54 205.1 205.1c117 1.6 212.48-93.9 210.88-210.88C462.44 140.91 371.09 49.56 258.9 48m126.42 327.25a4 4 0 0 1-6.14-.32a124.3 124.3 0 0 0-32.35-29.59C321.37 329 289.11 320 256 320s-65.37 9-90.83 25.34a124.2 124.2 0 0 0-32.35 29.58a4 4 0 0 1-6.14.32A175.32 175.32 0 0 1 80 259c-1.63-97.31 78.22-178.76 175.57-179S432 158.81 432 256a175.32 175.32 0 0 1-46.68 119.25"/><path fill="#F9F9F9" d="M256 144c-19.72 0-37.55 7.39-50.22 20.82s-19 32-17.57 51.93C191.11 256 221.52 288 256 288s64.83-32 67.79-71.24c1.48-19.74-4.8-38.14-17.68-51.82C293.39 151.44 275.59 144 256 144"/></svg>
+          </button>
+        </form>
+      </section>  <!--  Formulaire  -->
+    </main>
+    <script>
+      var typed = new Typed('#element', {
+        strings: [
+        'De quoi allons nous parler aujourd\'hui ?',
+        'Que souhaites-tu apprendre de nouveau ?',
+        'Comment puis-je t\'aider ?'
+        ],
+        cursorChar: '...',
+        fadeOut: true,
+        loop: true,
+        typeSpeed: 20,
+      });
+    </script>
+</body>
+
+</html>
