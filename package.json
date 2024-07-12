@@ -1,0 +1,16 @@
+{
+  "name": "Site_Desktop",
+  "version": "1.0.0",
+  "description": "Application chatGPT pour desktop",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "Neil",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^31.2.0"
+  }
+}
